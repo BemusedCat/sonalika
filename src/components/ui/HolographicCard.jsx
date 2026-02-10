@@ -70,14 +70,14 @@ export default function HolographicCard({ children, className = '' }) {
         style={{
           background: `linear-gradient(
             ${45 + rotateY * 5}deg,
-            #ff0000 0%,
-            #ff8000 14%,
-            #ffff00 28%,
-            #00ff00 42%,
-            #00ffff 56%,
-            #0000ff 70%,
-            #8000ff 84%,
-            #ff0080 100%
+            #FF69B4 0%,
+            #FF1493 14%,
+            #E91E8C 28%,
+            #C71585 42%,
+            #FF85A2 56%,
+            #FFB6C1 70%,
+            #FF1493 84%,
+            #FF69B4 100%
           )`,
           padding: '2px',
         }}
@@ -113,8 +113,8 @@ export default function HolographicCard({ children, className = '' }) {
               0deg,
               transparent,
               transparent 2px,
-              rgba(0,242,254,0.5) 2px,
-              rgba(0,242,254,0.5) 4px
+              rgba(255,105,180,0.5) 2px,
+              rgba(255,105,180,0.5) 4px
             )`,
             animation: 'interference 2s linear infinite',
           }}
