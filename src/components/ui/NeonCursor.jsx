@@ -66,9 +66,9 @@ export default function NeonCursor() {
         }}
       >
         <motion.div
-          className="w-10 h-10 rounded-full border-2 border-cyan-400"
+          className="w-10 h-10 rounded-full border-2 border-pink-400"
           style={{
-            boxShadow: '0 0 10px #00f2fe, 0 0 20px #00f2fe, inset 0 0 10px rgba(0, 242, 254, 0.1)',
+            boxShadow: '0 0 10px #FF69B4, 0 0 20px #FF69B4, inset 0 0 10px rgba(255, 105, 180, 0.1)',
           }}
           animate={{
             scale: [1, 1.1, 1],
@@ -93,9 +93,9 @@ export default function NeonCursor() {
       >
         {/* Core dot */}
         <div
-          className="w-2 h-2 rounded-full bg-cyan-400"
+          className="w-2 h-2 rounded-full bg-pink-400"
           style={{
-            boxShadow: '0 0 8px #00f2fe, 0 0 16px #00f2fe, 0 0 24px #00f2fe',
+            boxShadow: '0 0 8px #FF69B4, 0 0 16px #FF69B4, 0 0 24px #FF69B4',
           }}
         />
 
@@ -103,7 +103,7 @@ export default function NeonCursor() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           {/* Horizontal line */}
           <motion.div
-            className="absolute top-1/2 -translate-y-1/2 h-[1px] bg-gradient-to-r from-transparent via-cyan-400 to-transparent"
+            className="absolute top-1/2 -translate-y-1/2 h-[1px] bg-gradient-to-r from-transparent via-pink-400 to-transparent"
             style={{
               width: '24px',
               left: '-12px',
@@ -120,7 +120,7 @@ export default function NeonCursor() {
           />
           {/* Vertical line */}
           <motion.div
-            className="absolute left-1/2 -translate-x-1/2 w-[1px] bg-gradient-to-b from-transparent via-cyan-400 to-transparent"
+            className="absolute left-1/2 -translate-x-1/2 w-[1px] bg-gradient-to-b from-transparent via-pink-400 to-transparent"
             style={{
               height: '24px',
               top: '-12px',
@@ -152,8 +152,8 @@ export default function NeonCursor() {
               style={{
                 top: '-14px',
                 left: '-3px',
-                background: '#ff00ff',
-                boxShadow: '0 0 4px #ff00ff',
+                background: '#FF1493',
+                boxShadow: '0 0 4px #FF1493',
                 opacity: 0.8,
               }}
               animate={{
