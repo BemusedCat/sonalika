@@ -84,7 +84,7 @@ function EducationCard({ edu, index, scrollYProgress }) {
             style={{
               boxShadow: useTransform(
                 glowIntensity,
-                (v) => `0 0 ${v * 25}px ${v * 10}px rgba(64, 112, 244, ${v * 0.5})`
+                (v) => `0 0 ${v * 25}px ${v * 10}px rgba(233, 30, 140, ${v * 0.5})`
               ),
             }}
           >

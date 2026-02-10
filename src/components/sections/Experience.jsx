@@ -94,9 +94,9 @@ function RoleCard({ role, scrollYProgress, roleThreshold, isLast }) {
     scrollYProgress,
     [roleThreshold - 0.03, roleThreshold, roleThreshold + 0.08],
     [
-      '0 0 0 0 rgba(64, 112, 244, 0)',
-      '0 0 20px 8px rgba(64, 112, 244, 0.9)',
-      '0 0 6px 2px rgba(64, 112, 244, 0.4)'
+      '0 0 0 0 rgba(233, 30, 140, 0)',
+      '0 0 20px 8px rgba(233, 30, 140, 0.9)',
+      '0 0 6px 2px rgba(233, 30, 140, 0.4)'
     ]
   );
 
@@ -189,9 +189,9 @@ function ExperienceCard({ exp, scrollYProgress, isLast }) {
     scrollYProgress,
     [threshold - 0.05, threshold, threshold + 0.08],
     [
-      '0 0 0 0 rgba(64, 112, 244, 0)',
-      '0 0 25px 12px rgba(64, 112, 244, 0.8)',
-      '0 0 8px 4px rgba(64, 112, 244, 0.4)'
+      '0 0 0 0 rgba(233, 30, 140, 0)',
+      '0 0 25px 12px rgba(233, 30, 140, 0.8)',
+      '0 0 8px 4px rgba(233, 30, 140, 0.4)'
     ]
   );
 
@@ -253,7 +253,7 @@ export default function Experience() {
 
         {/* Animated main timeline line */}
         <motion.div
-          className="absolute left-[15px] top-0 w-0.5 bg-gradient-to-b from-primary via-primary to-blue-400 origin-top"
+          className="absolute left-[15px] top-0 w-0.5 bg-gradient-to-b from-primary via-primary to-pink-400 origin-top"
           style={{
             scaleY: scrollYProgress,
             height: '100%',
@@ -265,7 +265,7 @@ export default function Experience() {
           className="absolute left-[12px] w-2 h-2 rounded-full bg-primary z-20"
           style={{
             top: timelineHeadTop,
-            boxShadow: '0 0 20px 8px rgba(64, 112, 244, 0.7)',
+            boxShadow: '0 0 20px 8px rgba(233, 30, 140, 0.7)',
           }}
         />
 
