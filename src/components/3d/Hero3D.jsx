@@ -43,12 +43,12 @@ function FloatingElements() {
   return (
     <group ref={groupRef}>
       {/* Primary sphere - represents core */}
-      <FloatingShape position={[0, 0, 0]} color="#4070F4" shape="sphere" speed={0.5} scale={0.8} />
+      <FloatingShape position={[0, 0, 0]} color="#E91E8C" shape="sphere" speed={0.5} scale={0.8} />
 
       {/* Orbiting elements */}
       <FloatingShape position={[2, 1, -1]} color="#71B9EA" shape="box" speed={1.2} scale={0.4} />
       <FloatingShape position={[-2, -0.5, 0.5]} color="#EA9D7D" shape="torus" speed={0.8} scale={0.5} />
-      <FloatingShape position={[1, -1.5, 1]} color="#4070F4" shape="box" speed={1} scale={0.3} />
+      <FloatingShape position={[1, -1.5, 1]} color="#E91E8C" shape="box" speed={1} scale={0.3} />
       <FloatingShape position={[-1.5, 1.5, -0.5]} color="#333333" shape="sphere" speed={0.6} scale={0.35} />
     </group>
   );
@@ -64,7 +64,7 @@ export default function Hero3D({ className = '' }) {
       >
         <ambientLight intensity={0.5} />
         <directionalLight position={[10, 10, 5]} intensity={1} />
-        <pointLight position={[-10, -10, -5]} intensity={0.5} color="#4070F4" />
+        <pointLight position={[-10, -10, -5]} intensity={0.5} color="#E91E8C" />
 
         <FloatingElements />
 

@@ -22,7 +22,7 @@ export default function ParticleBackground() {
         },
       },
       color: {
-        value: '#4070F4',
+        value: '#E91E8C',
       },
       shape: {
         type: 'circle',
@@ -41,7 +41,7 @@ export default function ParticleBackground() {
       links: {
         enable: true,
         distance: 150,
-        color: '#4070F4',
+        color: '#E91E8C',
         opacity: 0.15,
         width: 1,
       },
@@ -73,7 +73,7 @@ export default function ParticleBackground() {
           distance: 180,
           links: {
             opacity: 0.4,
-            color: '#4070F4',
+            color: '#E91E8C',
           },
         },
         push: {
