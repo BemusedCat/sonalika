@@ -75,6 +75,11 @@
   transform-box: fill-box;
 }
 
+/* Fix wheel spokes invisible in dark mode (#263238 on dark bg) */
+.dark .animate-wheel path {
+  fill: #c9879c !important;
+}
+
 .animate-slidein {
   animation: slidein 3s ease-in-out infinite alternate;
   transform-origin: center;
@@ -102,6 +107,28 @@
 .animate-hand {
   animation: hand_ani 0.8s ease-in-out infinite alternate;
   transform-origin: top left;
+  transform-box: fill-box;
+}
+
+@keyframes ride-bounce {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-3px) rotate(-0.3deg); }
+}
+
+.animate-ride {
+  animation: ride-bounce 0.8s ease-in-out infinite;
+  transform-origin: center bottom;
+  transform-box: fill-box;
+}
+
+@keyframes plant-sway {
+  0%, 100% { transform: skewX(0deg) translateX(0); }
+  50% { transform: skewX(1.5deg) translateX(2px); }
+}
+
+.animate-plant-sway {
+  animation: plant-sway 3s ease-in-out infinite;
+  transform-origin: center bottom;
   transform-box: fill-box;
 }
 
