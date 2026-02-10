@@ -5,16 +5,32 @@ import useViewMode from '../../hooks/useViewMode';
 
 const experiences = [
   {
+    company: 'Microsoft',
+    icon: 'bxl-microsoft',
+    color: 'bg-blue-600',
+    type: 'Full-time',
+    threshold: 0.1,
+    roles: [
+      {
+        title: 'Software Engineer 2',
+        period: 'Mar 2025 - Present',
+        duration: '1 yr',
+        location: 'India',
+      },
+    ],
+    skills: ['Azure', 'Cloud', '+3 skills'],
+  },
+  {
     company: 'Oracle',
     icon: 'bxs-cloud',
     color: 'bg-red-500',
-    type: 'Full-time · 3 yrs 8 mos',
-    threshold: 0.15,
+    type: 'Full-time · 2 yrs 8 mos',
+    threshold: 0.3,
     roles: [
       {
         title: 'Software Development Engineer 2',
-        period: 'Jul 2022 - Present',
-        duration: '3 yrs 8 mos',
+        period: 'Jul 2022 - Feb 2025',
+        duration: '2 yrs 8 mos',
         location: 'India',
       },
     ],

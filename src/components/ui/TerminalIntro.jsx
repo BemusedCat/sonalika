@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const commands = [
   { cmd: '> whoami', output: 'sonalika' },
-  { cmd: '> cat profession.txt', output: 'SDE 2 @ Oracle' },
+  { cmd: '> cat profession.txt', output: 'Software Engineer 2 @ Microsoft' },
   { cmd: '> echo $SKILLS', output: 'NestJS, AWS, Docker, Kubernetes' },
   { cmd: '> ./start_portfolio.sh', output: 'Initializing...' },
 ];

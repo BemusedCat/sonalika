@@ -32,11 +32,11 @@ export default function About() {
             I'm Sonalika
           </h3>
           <p className="leading-relaxed dark:text-gray-300">
-            I am a Software Development Engineer 2 at Oracle, specializing in 5G Cloud
-            Native systems. With a BTech in Computer Science from Christ University,
-            Bangalore, I bridge the gap between scalable cloud platforms and robust
-            backend systems, with expertise in DevOps, Kubernetes, and full-stack
-            development.
+            I am a Software Engineer 2 at Microsoft, previously at Oracle specializing
+            in 5G Cloud Native systems. With a BTech in Computer Science from Christ
+            University, Bangalore, I bridge the gap between scalable cloud platforms
+            and robust backend systems, with expertise in DevOps, Kubernetes, and
+            full-stack development.
           </p>
         </motion.div>
       </div>
