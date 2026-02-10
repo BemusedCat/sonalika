@@ -17,8 +17,8 @@ export default function SkillBar({ name, icon, percentage }) {
         <div
           className="w-20 h-20 rounded-full flex items-center justify-center"
           style={{
-            background: `radial-gradient(circle, rgba(0,242,254,0.3) 0%, transparent 70%)`,
-            boxShadow: `0 0 ${percentage / 2}px var(--neon-cyan), inset 0 0 20px rgba(0,242,254,0.2)`,
+            background: `radial-gradient(circle, rgba(255,105,180,0.3) 0%, transparent 70%)`,
+            boxShadow: `0 0 ${percentage / 2}px var(--neon-cyan), inset 0 0 20px rgba(255,105,180,0.2)`,
           }}
         >
           <i className={`bx ${icon} text-3xl neon-text`}></i>
