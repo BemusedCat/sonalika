@@ -85,7 +85,7 @@ export default function Home() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, delay: 0.4 }}
       >
-        <HeroIllustration className="w-full max-w-lg md:max-w-xl" />
+        <HeroIllustration className="w-full max-w-xl md:max-w-2xl" />
       </motion.div>
     </section>
   );
