@@ -79,13 +79,13 @@ export default function Home() {
       </div>
 
       <motion.div
-        className="order-1 md:order-2 flex justify-center items-center md:-translate-y-12 will-change-transform"
+        className="order-1 md:order-2 flex justify-center items-center will-change-transform"
         style={{ y: parallaxY }}
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, delay: 0.4 }}
       >
-        <HeroIllustration className="w-full max-w-md md:max-w-lg" />
+        <HeroIllustration className="w-full max-w-lg md:max-w-xl" />
       </motion.div>
     </section>
   );
