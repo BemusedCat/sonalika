@@ -79,7 +79,7 @@ export default function Home() {
       </div>
 
       <motion.div
-        className="order-1 md:order-2 flex justify-center items-center will-change-transform"
+        className="order-1 md:order-2 flex justify-center items-start md:-mt-16 will-change-transform"
         style={{ y: parallaxY }}
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
