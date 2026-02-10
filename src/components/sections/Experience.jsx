@@ -13,7 +13,7 @@ const experiences = [
     roles: [
       {
         title: 'Software Engineer 2',
-        period: 'Mar 2025 - Present',
+        period: 'Apr 2025 - Present',
         duration: '1 yr',
         location: 'India',
       },
@@ -24,13 +24,13 @@ const experiences = [
     company: 'Oracle',
     icon: 'bxs-cloud',
     color: 'bg-red-500',
-    type: 'Full-time · 2 yrs 8 mos',
+    type: 'Full-time · 2 yrs 9 mos',
     threshold: 0.3,
     roles: [
       {
         title: 'Software Development Engineer 2',
-        period: 'Jul 2022 - Feb 2025',
-        duration: '2 yrs 8 mos',
+        period: 'Jul 2022 - Mar 2025',
+        duration: '2 yrs 9 mos',
         location: 'India',
       },
     ],
