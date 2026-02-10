@@ -5,63 +5,68 @@ import useViewMode from '../../hooks/useViewMode';
 
 const experiences = [
   {
-    company: 'CrowdStrike',
-    icon: 'bxs-shield',
-    color: 'bg-red-600',
-    type: 'Full-time',
-    threshold: 0.15,
-    roles: [
-      {
-        title: 'Engineer II | CI/CD Devops SDA UI',
-        period: 'Feb 2026 - Present',
-        duration: '1 mo',
-        location: 'Bengaluru, Karnataka, India',
-      },
-    ],
-  },
-  {
     company: 'Oracle',
     icon: 'bxs-cloud',
     color: 'bg-red-500',
     type: 'Full-time · 3 yrs 8 mos',
+    threshold: 0.15,
+    roles: [
+      {
+        title: 'Software Development Engineer 2',
+        period: 'Jul 2022 - Present',
+        duration: '3 yrs 8 mos',
+        location: 'India',
+      },
+    ],
+    skills: ['5G', 'Cloud Native', 'OCNADD', '+3 skills'],
+  },
+  {
+    company: 'SysCloud',
+    icon: 'bxs-server',
+    color: 'bg-blue-500',
+    type: 'Full-time · 1 yr 7 mos',
     threshold: 0.4,
     roles: [
       {
-        title: 'Site Reliability Engineer 2 | GenAI',
-        period: 'Feb 2025 - Feb 2026',
-        duration: '1 yr 1 mo',
-        location: 'Bengaluru, Karnataka, India',
-      },
-      {
-        title: 'Software Developer 2',
-        period: 'Aug 2024 - Feb 2025',
-        duration: '7 mos',
-        location: 'Gurugram, Haryana, India · On-site',
-      },
-      {
-        title: 'Associate Software Developer',
-        period: 'Jul 2022 - Aug 2024',
-        duration: '2 yrs 2 mos',
-        location: 'Gurugram, Haryana, India · On-site',
+        title: 'Software Engineer',
+        period: 'Dec 2020 - Jun 2022',
+        duration: '1 yr 7 mos',
+        location: 'India',
       },
     ],
-    skills: ['React.js', 'Node.js', '+5 skills'],
+    skills: ['NestJS', 'AWS', 'Docker', 'Kubernetes', '+4 skills'],
   },
   {
-    company: 'Paytm',
-    icon: 'bxs-wallet',
+    company: 'LG Soft India',
+    icon: 'bxs-devices',
+    color: 'bg-gray-700',
+    type: 'Trainee · 3 mos',
+    threshold: 0.6,
+    roles: [
+      {
+        title: 'Trainee',
+        period: 'Jul 2020 - Sep 2020',
+        duration: '3 mos',
+        location: 'Bengaluru, Karnataka, India',
+      },
+    ],
+    skills: ['WebOS 2.0', 'Raspberry Pi'],
+  },
+  {
+    company: 'The Big Stack',
+    icon: 'bxs-briefcase',
     color: 'bg-sky-500',
-    type: 'Internship',
+    type: 'Internship · 2 mos',
     threshold: 0.8,
     roles: [
       {
-        title: 'Software Engineer',
-        period: 'Jan 2022 - Jun 2022',
-        duration: '6 mos',
-        location: 'Noida, Uttar Pradesh, India',
+        title: 'Intern — Front-end Developer',
+        period: 'Apr 2019 - May 2019',
+        duration: '2 mos',
+        location: 'Greater Delhi Area',
       },
     ],
-    skills: ['React.js', 'JavaScript', '+2 skills'],
+    skills: ['HTML', 'CSS', 'JavaScript', 'jQuery'],
   },
 ];
 
