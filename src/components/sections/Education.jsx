@@ -5,21 +5,21 @@ import useViewMode from '../../hooks/useViewMode';
 
 const education = [
   {
-    institution: 'Georgia Institute of Technology',
-    icon: '🐝',
-    isEmoji: true,
-    color: 'bg-yellow-600',
-    degree: 'Master of Science - MS, Computer Science',
-    period: 'Aug 2025 - Jul 2027',
-    current: true,
-  },
-  {
-    institution: 'National Institute of Technology Agartala',
+    institution: 'Christ University, Bangalore',
     icon: 'bxs-school',
     isEmoji: false,
-    color: 'bg-blue-700',
-    degree: 'Bachelor of Technology - BTech, Electronics and Instrumentation Engineering',
-    period: '2018 - 2022',
+    color: 'bg-pink-700',
+    degree: 'Bachelor of Technology - BTech, Computer Science',
+    period: '2017 - 2021',
+    current: false,
+  },
+  {
+    institution: 'Holy Child Auxilium School, Vasant Vihar, New Delhi',
+    icon: 'bxs-school',
+    isEmoji: false,
+    color: 'bg-pink-500',
+    degree: '12th Standard, CBSE Delhi',
+    period: '2016 - 2017',
     current: false,
   },
 ];
