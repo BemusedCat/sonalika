@@ -6,11 +6,11 @@ import useIsMobile from '../../hooks/useIsMobile';
 import useViewMode from '../../hooks/useViewMode';
 
 const skills = [
-  { name: 'Java & C++', icon: 'bx-code-curly', percentage: 85 },
-  { name: 'TypeScript & Modern UI', icon: 'bxl-typescript', percentage: 80 },
-  { name: 'Docker & CI/CD Pipelines', icon: 'bxl-docker', percentage: 75 },
-  { name: 'OpenTelemetry & Observability', icon: 'bx-pulse', percentage: 70 },
-  { name: 'AI/ML & LLM Integration', icon: 'bx-bot', percentage: 60 },
+  { name: 'NestJS & Backend Dev', icon: 'bx-server', percentage: 85 },
+  { name: 'AWS, Azure & Cloud', icon: 'bx-cloud', percentage: 80 },
+  { name: 'Docker & Kubernetes', icon: 'bxl-docker', percentage: 75 },
+  { name: 'GraphQL & PostgreSQL', icon: 'bx-data', percentage: 70 },
+  { name: 'HTML, CSS & JavaScript', icon: 'bxl-javascript', percentage: 65 },
 ];
 
 export default function Skills() {
