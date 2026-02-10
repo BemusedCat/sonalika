@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import useViewMode from '../../hooks/useViewMode';
 
 const MAX_PARTICLES = 30;
-const COLORS = ['#00f2fe', '#ff00ff', '#39ff14'];
+const COLORS = ['#FF69B4', '#FF1493', '#FF85A2'];
 
 export default function CursorTrail() {
   const { isModernView } = useViewMode();

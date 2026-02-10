@@ -30,14 +30,14 @@ export default function ElectricArc({ height = 100, className = '' }) {
       }
 
       // Main bolt
-      ctx.strokeStyle = '#00f2fe';
+      ctx.strokeStyle = '#FF69B4';
       ctx.lineWidth = 2;
       ctx.shadowBlur = 20;
-      ctx.shadowColor = '#00f2fe';
+      ctx.shadowColor = '#FF69B4';
       ctx.stroke();
 
       // Glow
-      ctx.strokeStyle = 'rgba(0, 242, 254, 0.3)';
+      ctx.strokeStyle = 'rgba(255, 105, 180, 0.3)';
       ctx.lineWidth = 6;
       ctx.stroke();
 
