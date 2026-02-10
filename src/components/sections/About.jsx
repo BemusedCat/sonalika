@@ -17,7 +17,7 @@ export default function About() {
         >
           <img
             src={aboutImg}
-            alt="About Abhigyan"
+            alt="About Sonalika"
             className="w-48 md:w-72 rounded-lg"
           />
         </motion.div>
@@ -29,14 +29,14 @@ export default function About() {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <h3 className="text-lg font-semibold mb-4 dark:text-white">
-            I'm Abhigyan
+            I'm Sonalika
           </h3>
           <p className="leading-relaxed dark:text-gray-300">
-            I am a Software Engineer II at CrowdStrike, specializing in CI/CD pipelines
-            and UI infrastructure. Previously at Oracle, I am currently pursuing my
-            Master's in Computer Science from Georgia Tech. I bridge the gap between
-            scalable DevOps systems and seamless user experiences, with a focus on
-            observability and AI integration.
+            I am a Software Development Engineer 2 at Oracle, specializing in 5G Cloud
+            Native systems. With a BTech in Computer Science from Christ University,
+            Bangalore, I bridge the gap between scalable cloud platforms and robust
+            backend systems, with expertise in DevOps, Kubernetes, and full-stack
+            development.
           </p>
         </motion.div>
       </div>

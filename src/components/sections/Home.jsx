@@ -6,9 +6,8 @@ import useIsMobile from '../../hooks/useIsMobile';
 import useViewMode from '../../hooks/useViewMode';
 
 const socialLinks = [
-  { icon: 'bxl-linkedin', url: 'https://www.linkedin.com/in/abhigyann/', label: 'LinkedIn' },
-  { icon: 'bxl-instagram', url: 'https://www.instagram.com/abhigyann22', label: 'Instagram' },
-  { icon: 'bxl-github', url: 'https://github.com/BemusedCat', label: 'GitHub' },
+  { icon: 'bxl-linkedin', url: 'https://www.linkedin.com/in/sonalika-gupta-b36729189/', label: 'LinkedIn' },
+  { icon: 'bxl-instagram', url: '#', label: 'Instagram' },
 ];
 
 export default function Home() {
@@ -49,7 +48,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
           >
             Hi,<br />
-            I'm <TextScramble className={isModernView ? 'neon-text' : 'text-primary'}>Abhigyan</TextScramble><br />
+            I'm <TextScramble className={isModernView ? 'neon-text' : 'text-primary'}>Sonalika</TextScramble><br />
             <Typewriter
               words={['Freelancer', 'Software Engineer', 'Web Developer']}
               period={2000}

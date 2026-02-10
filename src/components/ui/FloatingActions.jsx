@@ -3,9 +3,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import useViewMode from '../../hooks/useViewMode';
 
 const actions = [
-  { icon: 'bxl-github', label: 'GitHub', url: 'https://github.com/BemusedCat' },
-  { icon: 'bxl-linkedin', label: 'LinkedIn', url: 'https://www.linkedin.com/in/abhigyann/' },
-  { icon: 'bx-envelope', label: 'Email', url: 'mailto:hello@abhigyan.dev' },
+  { icon: 'bxl-linkedin', label: 'LinkedIn', url: 'https://www.linkedin.com/in/sonalika-gupta-b36729189/' },
+  { icon: 'bxl-instagram', label: 'Instagram', url: '#' },
 ];
 
 export default function FloatingActions() {

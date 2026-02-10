@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const commands = [
-  { cmd: '> whoami', output: 'abhigyan' },
-  { cmd: '> cat profession.txt', output: 'Software Engineer @ CrowdStrike' },
-  { cmd: '> echo $SKILLS', output: 'React, Node.js, DevOps, AI/ML' },
+  { cmd: '> whoami', output: 'sonalika' },
+  { cmd: '> cat profession.txt', output: 'SDE 2 @ Oracle' },
+  { cmd: '> echo $SKILLS', output: 'NestJS, AWS, Docker, Kubernetes' },
   { cmd: '> ./start_portfolio.sh', output: 'Initializing...' },
 ];
 

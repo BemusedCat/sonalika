@@ -53,7 +53,7 @@ export default function Header() {
         <nav className="h-12 md:h-16 flex justify-between items-center max-w-[1220px] mx-auto px-4 md:px-8 font-semibold">
           {/* Logo */}
           <a href="#" className="text-secondary dark:text-white text-lg">
-            Abhigyan
+            Sonalika
           </a>
 
           {/* Desktop Navigation */}
