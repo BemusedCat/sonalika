@@ -7,19 +7,19 @@ export default function AuroraBackground() {
       <svg className="absolute inset-0 w-full h-full" preserveAspectRatio="none">
         <defs>
           <linearGradient id="aurora1" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="#00f2fe" stopOpacity="0" />
-            <stop offset="50%" stopColor="#00f2fe" stopOpacity="0.3" />
-            <stop offset="100%" stopColor="#4facfe" stopOpacity="0" />
+            <stop offset="0%" stopColor="#FF69B4" stopOpacity="0" />
+            <stop offset="50%" stopColor="#FF69B4" stopOpacity="0.3" />
+            <stop offset="100%" stopColor="#FF85A2" stopOpacity="0" />
           </linearGradient>
           <linearGradient id="aurora2" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="#ff00ff" stopOpacity="0" />
-            <stop offset="50%" stopColor="#ff00ff" stopOpacity="0.2" />
-            <stop offset="100%" stopColor="#667eea" stopOpacity="0" />
+            <stop offset="0%" stopColor="#FF1493" stopOpacity="0" />
+            <stop offset="50%" stopColor="#FF1493" stopOpacity="0.2" />
+            <stop offset="100%" stopColor="#C71585" stopOpacity="0" />
           </linearGradient>
           <linearGradient id="aurora3" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="#39ff14" stopOpacity="0" />
-            <stop offset="50%" stopColor="#39ff14" stopOpacity="0.15" />
-            <stop offset="100%" stopColor="#00f2fe" stopOpacity="0" />
+            <stop offset="0%" stopColor="#FF85A2" stopOpacity="0" />
+            <stop offset="50%" stopColor="#FF85A2" stopOpacity="0.15" />
+            <stop offset="100%" stopColor="#FFB6C1" stopOpacity="0" />
           </linearGradient>
           <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
             <feGaussianBlur stdDeviation="8" result="coloredBlur" />
