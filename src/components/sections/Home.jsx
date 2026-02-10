@@ -31,7 +31,7 @@ export default function Home() {
     <section
       ref={sectionRef}
       id="home"
-      className="min-h-[calc(100vh-3rem)] md:min-h-screen grid md:grid-cols-2 gap-4 items-end pt-12 md:pt-0 md:pb-16 bd-container"
+      className="min-h-[calc(100vh-3rem)] md:min-h-screen grid md:grid-cols-2 gap-4 items-center pt-12 md:pt-0 bd-container"
     >
       <div className="order-2 md:order-1">
         <TerminalIntro onComplete={() => setTerminalComplete(true)} />
@@ -79,7 +79,7 @@ export default function Home() {
       </div>
 
       <motion.div
-        className="order-1 md:order-2 flex justify-center items-end will-change-transform"
+        className="order-1 md:order-2 flex justify-center items-center md:-translate-y-12 will-change-transform"
         style={{ y: parallaxY }}
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
