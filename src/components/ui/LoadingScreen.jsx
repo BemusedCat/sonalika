@@ -31,7 +31,7 @@ export default function LoadingScreen({ onComplete }) {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
             >
-              A
+              S
             </motion.div>
 
             {/* Loading bar */}
