@@ -6,7 +6,7 @@ export default function ProgrammerIllustration({ className = '' }) {
     	 viewBox="0 0 500 500">
     <motion.g id="BACKGROUND"
             animate={{ opacity: [0.85, 1, 0.85] }}
-            transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}>
+            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}>
     	<g>
     		<path style={{fill:'#FFE0B0'}} d="M93.884,190.681c0,2.02-1.638,3.658-3.658,3.658c-2.02,0-3.658-1.638-3.658-3.658
     			c0-2.02,1.638-3.658,3.658-3.658C92.246,187.023,93.884,188.661,93.884,190.681z"/>
@@ -178,8 +178,8 @@ export default function ProgrammerIllustration({ className = '' }) {
     	</g>
     </motion.g>
     <motion.g id="OBJECTS"
-            animate={{ y: [0, -3, 0] }}
-            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}>
+            animate={{ y: [0, -6, -2, -8, -3, -5, 0] }}
+            transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }}>
     	<path style={{fill:'#FFFFFF'}} d="M440.214,448.511H59.786c-1.286,0-2.328-1.042-2.328-2.328l0,0c0-1.286,1.042-2.328,2.328-2.328
     		h380.427c1.286,0,2.328,1.042,2.328,2.328l0,0C442.541,447.469,441.499,448.511,440.214,448.511z"/>
     	<g>
@@ -530,8 +530,8 @@ export default function ProgrammerIllustration({ className = '' }) {
     		</g>
     	</g>
     	<motion.g
-        animate={{ rotate: [0, 0.5, -0.5, 0] }}
-        transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+        animate={{ rotate: [0, 2.5, -2.5, 1.5, -1.5, 0] }}
+        transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
         style={{ transformOrigin: '410px 445px' }}>
     		<g>
     			<path style={{fill:'#FFC05C'}} d="M402.203,391.772c-6.244-5.883,0.992-14.702-4.342-21.283c-1.58-1.949-3.719-3.3-5.5-5.037

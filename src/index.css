@@ -80,6 +80,10 @@
   fill: #c9879c !important;
 }
 
+.dark .animate-wheel {
+  filter: drop-shadow(0 0 4px rgba(255, 129, 174, 0.4));
+}
+
 .animate-slidein {
   animation: slidein 3s ease-in-out infinite alternate;
   transform-origin: center;
@@ -129,6 +133,47 @@
 .animate-plant-sway {
   animation: plant-sway 3s ease-in-out infinite;
   transform-origin: center bottom;
+  transform-box: fill-box;
+}
+
+.animate-plant-sway-alt {
+  animation: plant-sway 3.5s ease-in-out infinite reverse;
+  transform-origin: center bottom;
+  transform-box: fill-box;
+}
+
+/* Speed / wind lines */
+@keyframes speed-line {
+  0% { transform: translateX(0); opacity: 0; }
+  10% { opacity: 0.8; }
+  100% { transform: translateX(-500px); opacity: 0; }
+}
+
+.animate-speed-line {
+  animation: speed-line 1.2s ease-out infinite;
+}
+
+/* Sparkle particles */
+@keyframes sparkle {
+  0%, 100% { opacity: 0; transform: scale(0) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1) rotate(180deg); }
+}
+
+.animate-sparkle {
+  animation: sparkle 1.8s ease-in-out infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+/* Wheel pink glow trail */
+@keyframes trail-pulse {
+  0%, 100% { opacity: 0.15; transform: scaleX(1) scaleY(1); }
+  50% { opacity: 0.35; transform: scaleX(1.08) scaleY(1.3); }
+}
+
+.animate-trail {
+  animation: trail-pulse 0.5s ease-in-out infinite;
+  transform-origin: center;
   transform-box: fill-box;
 }
 

@@ -1,12 +1,25 @@
 export default function HeroIllustration({ className = '' }) {
   return (
     <svg viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+      <defs>
+        <linearGradient id="wheelTrail" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stopColor="#FF81AE" stopOpacity="0" />
+          <stop offset="50%" stopColor="#FF81AE" stopOpacity="0.6" />
+          <stop offset="100%" stopColor="#FF81AE" stopOpacity="0" />
+        </linearGradient>
+        <radialGradient id="sparkleGlow">
+          <stop offset="0%" stopColor="#FF69B4" stopOpacity="1" />
+          <stop offset="100%" stopColor="#FF69B4" stopOpacity="0" />
+        </radialGradient>
+      </defs>
       {/* Floor */}
       <g id="freepik--Floor--inject-131">
         <path d="M450.1,470.19c0,.15-92.73.26-207.09.26s-207.11-.11-207.11-.26,92.71-.26,207.11-.26S450.1,470.05,450.1,470.19Z" style={{fill:'#263238'}} />
       </g>
       {/* Plants */}
-      <g id="freepik--Plants--inject-131" className="animate-plant-sway">
+      <g id="freepik--Plants--inject-131">
+        {/* Left plants */}
+        <g className="animate-plant-sway">
         <path d="M135.63,116c-1.76.2-13.2.85-6.53-3.17a14.83,14.83,0,0,1-4.8-1.71,1.06,1.06,0,0,1,0-1.93,10.8,10.8,0,0,1,3.76-.81,13.37,13.37,0,0,1,2.46,0l.36,0a4.13,4.13,0,0,1-.53-1.17c-1.29-4.69,7.52,1.4,9.09,4,.57,1,1.48,2.49.73,3.59s-3.28,1-4.55,1.15Z" style={{fill:'#455a64',fillRule:'evenodd'}} />
         <path d="M144,129.62c-1.35.27-3.85.81-4.49-.91a1.88,1.88,0,0,1,.67-2.11,24.83,24.83,0,0,1-3,.07c-1.46-.08-5.15-.58-4.55-2.86.23-.91,1.28-1.24,2.07-1.49a16.09,16.09,0,0,1,3.51-.72c.42,0,.84-.06,1.27-.06a2,2,0,0,1,.49-2.84c1.35-1,3.54-.36,5,0a21.88,21.88,0,0,1,5.07,1.8c1.26.66,3.25,1.57,2.7,3.34-.45,1.48-2.31,2.82-3.54,3.63a14.91,14.91,0,0,1-5.22,2.17Z" style={{fill:'#455a64',fillRule:'evenodd'}} />
         <path d="M165.26,115.41c-1.2-1-3.44-2.8-2.39-4.59a2.12,2.12,0,0,1,2.32-.91,26.79,26.79,0,0,1-2.17-2.57c-1-1.34-3.15-4.93-.72-6,1-.44,2,.25,2.78.76a18.8,18.8,0,0,1,3.12,2.57c.33.35.65.71,1,1.08a2.27,2.27,0,0,1,2.84-1.58c1.83.48,2.83,2.84,3.57,4.38a24.42,24.42,0,0,1,2,5.73c.31,1.57.92,4-1,4.74-1.62.65-4.11,0-5.69-.53a16.83,16.83,0,0,1-5.61-3Z" style={{fill:'#455a64',fillRule:'evenodd'}} />
@@ -21,6 +34,9 @@ export default function HeroIllustration({ className = '' }) {
         <path d="M181.09,121.21a6.44,6.44,0,0,1-2-.75,18.7,18.7,0,0,1-7.38-6.77,5.87,5.87,0,0,1-.91-1.89,36.31,36.31,0,0,0,4.49,5.39A37.84,37.84,0,0,0,181.09,121.21Z" style={{fill:'#263238'}} />
         <path d="M192.77,130.1a3.14,3.14,0,0,1,.16-.83,22.53,22.53,0,0,1,.69-2.19,35.25,35.25,0,0,1,8-12.74,21.6,21.6,0,0,1,1.68-1.56c.42-.35.66-.53.68-.5s-.81.89-2.09,2.31a44.29,44.29,0,0,0-4.52,6,44.89,44.89,0,0,0-3.43,6.65A30.52,30.52,0,0,1,192.77,130.1Z" style={{fill:'#263238'}} />
         <path d="M189.42,107.66a47.65,47.65,0,0,0,6.31,3.75,21.74,21.74,0,0,0,2.65,1,16.67,16.67,0,0,0,2.28.4c1.32.16,2.15.16,2.15.23a5.82,5.82,0,0,1-2.18.14,14.45,14.45,0,0,1-2.37-.3,19.1,19.1,0,0,1-2.74-1,22,22,0,0,1-4.52-2.73A6.8,6.8,0,0,1,189.42,107.66Z" style={{fill:'#263238'}} />
+        </g>
+        {/* Right plants */}
+        <g className="animate-plant-sway-alt">
         <path d="M370.19,48.57c1.72-.4,13-2.27,6.82,2.44a14.94,14.94,0,0,1,5,1.19,1.05,1.05,0,0,1,.2,1.91,10.34,10.34,0,0,1-3.65,1.21,13.11,13.11,0,0,1-2.45.24h-.36a4.1,4.1,0,0,1,.65,1.11c1.79,4.52-7.63-.58-9.46-3-.68-.89-1.74-2.32-1.11-3.49s3.15-1.35,4.4-1.63Z" style={{fill:'#455a64',fillRule:'evenodd'}} />
         <path d="M360.38,35.92c1.31-.42,3.73-1.22,4.56.42a1.88,1.88,0,0,1-.44,2.17,22.62,22.62,0,0,1,3-.39c1.47-.08,5.18,0,4.84,2.36-.14.93-1.15,1.36-1.9,1.7A16.32,16.32,0,0,1,367,43.27c-.42.09-.83.15-1.26.2a2,2,0,0,1-.18,2.87c-1.24,1.14-3.48.74-5,.56a21.78,21.78,0,0,1-5.23-1.24c-1.32-.52-3.4-1.21-3-3,.29-1.52,2-3.05,3.13-4a14.84,14.84,0,0,1,5-2.72Z" style={{fill:'#455a64',fillRule:'evenodd'}} />
         <path d="M340.79,52.33c1.3.86,3.72,2.42,2.87,4.31a2.12,2.12,0,0,1-2.21,1.15,26.69,26.69,0,0,1,2.43,2.33c1.12,1.22,3.66,4.56,1.37,5.91-.92.54-2,0-2.85-.46A18.77,18.77,0,0,1,339,63.35c-.36-.3-.71-.63-1-1a2.27,2.27,0,0,1-2.66,1.87c-1.87-.27-3.12-2.52-4-4a24.21,24.21,0,0,1-2.62-5.48c-.48-1.53-1.35-3.84.49-4.82,1.55-.82,4.1-.41,5.73-.09a17.07,17.07,0,0,1,5.9,2.43Z" style={{fill:'#455a64',fillRule:'evenodd'}} />
@@ -35,7 +51,25 @@ export default function HeroIllustration({ className = '' }) {
         <path d="M324.42,48.27a6.69,6.69,0,0,1,2,.54,18.3,18.3,0,0,1,4.44,2.42,18.86,18.86,0,0,1,3.63,3.52,5.75,5.75,0,0,1,1.1,1.77,37.34,37.34,0,0,0-5-4.87A36.87,36.87,0,0,0,324.42,48.27Z" style={{fill:'#263238'}} />
         <path d="M311.85,40.69a2.55,2.55,0,0,1-.06.84,22,22,0,0,1-.45,2.25,35.57,35.57,0,0,1-2.58,7.12,34.51,34.51,0,0,1-4,6.41c-.6.76-1.12,1.35-1.5,1.74s-.59.59-.62.57.71-1,1.83-2.53a44.78,44.78,0,0,0,3.86-6.42,45.51,45.51,0,0,0,2.69-7A30.9,30.9,0,0,1,311.85,40.69Z" style={{fill:'#263238'}} />
         <path d="M317.6,62.64a47.14,47.14,0,0,0-6.67-3,21.64,21.64,0,0,0-2.75-.72,16.72,16.72,0,0,0-2.31-.16c-1.33,0-2.15.08-2.16,0a5.65,5.65,0,0,1,2.15-.37,13.94,13.94,0,0,1,2.39,0,19.55,19.55,0,0,1,2.84.7,22,22,0,0,1,4.78,2.22A6.7,6.7,0,0,1,317.6,62.64Z" style={{fill:'#263238'}} />
+        </g>
       </g>
+      {/* Speed / wind lines */}
+      <g opacity="0.5">
+        <line x1="480" y1="325" x2="410" y2="325" stroke="#FF81AE" strokeWidth="1.8" strokeLinecap="round" className="animate-speed-line" style={{animationDelay: '0s'}} />
+        <line x1="495" y1="355" x2="445" y2="355" stroke="#FFB6C1" strokeWidth="1.2" strokeLinecap="round" className="animate-speed-line" style={{animationDelay: '0.4s'}} />
+        <line x1="475" y1="385" x2="420" y2="385" stroke="#FF81AE" strokeWidth="1.5" strokeLinecap="round" className="animate-speed-line" style={{animationDelay: '0.9s'}} />
+        <line x1="490" y1="345" x2="455" y2="345" stroke="#FF69B4" strokeWidth="1" strokeLinecap="round" className="animate-speed-line" style={{animationDelay: '0.2s'}} />
+        <line x1="470" y1="375" x2="425" y2="375" stroke="#FFB6C1" strokeWidth="1.2" strokeLinecap="round" className="animate-speed-line" style={{animationDelay: '0.65s'}} />
+        <line x1="498" y1="405" x2="450" y2="405" stroke="#FF81AE" strokeWidth="0.8" strokeLinecap="round" className="animate-speed-line" style={{animationDelay: '1.1s'}} />
+        <line x1="485" y1="365" x2="460" y2="365" stroke="#FF69B4" strokeWidth="0.7" strokeLinecap="round" className="animate-speed-line" style={{animationDelay: '1.4s'}} />
+      </g>
+
+      {/* Wheel glow trails */}
+      <g>
+        <ellipse cx="341" cy="406" rx="62" ry="4" fill="url(#wheelTrail)" className="animate-trail" />
+        <ellipse cx="132" cy="406" rx="62" ry="4" fill="url(#wheelTrail)" className="animate-trail" style={{animationDelay: '0.15s'}} />
+      </g>
+
       {/* Character */}
       <g id="freepik--Character--inject-131" className="animate-ride">
         <polygon points="234.79 235.12 221.55 247.32 194.24 263.08 193.18 263.32 194.24 271.92 226.42 260.93 245.64 246.36 234.79 235.12" style={{fill:'#ffbe9d'}} />
@@ -218,6 +252,20 @@ export default function HeroIllustration({ className = '' }) {
         <circle cx="206.96" cy="283.36" r="3.93" style={{fill:'#263238'}} />
         <path d="M199.32,286.18s0,.09,0,.27v0h-.07a3.11,3.11,0,0,0-.93,0,6.59,6.59,0,0,1-1.66.18,1.64,1.64,0,0,1-1-.47,1.86,1.86,0,0,1-.43-1.17c-.05-.79-.11-1.61-.17-2.47a8.34,8.34,0,0,1,.14-3,4.88,4.88,0,0,1,1.34-2.05,6,6,0,0,1,1.78-1.3,20.1,20.1,0,0,1-1.52,1.55,4.92,4.92,0,0,0-1.14,1.93,8.57,8.57,0,0,0-.08,2.8c.23,1.64-.25,3.69,1.17,3.73a7.09,7.09,0,0,0,1.56-.06,2.23,2.23,0,0,1,1,.13l-.08,0C199.24,286.24,199.29,286.17,199.32,286.18Z" style={{fill:'#eb996e'}} />
         <path d="M211.48,276.28s.13-.11.39-.28l1.17-.7,4.36-2.52c3.68-2.1,8.79-5,14.45-8.11l4.58-2.54-.11.12c2-4.74,3.82-8.9,5.13-12,.64-1.42,1.15-2.59,1.55-3.48a8.65,8.65,0,0,1,.61-1.23,7.74,7.74,0,0,1-.45,1.3l-1.41,3.54-5,12,0,.08-.08,0-4.58,2.55c-5.66,3.15-10.8,6-14.53,8l-4.43,2.36-1.22.62A1.93,1.93,0,0,1,211.48,276.28Z" style={{fill:'#eb996e'}} />
+      </g>
+
+      {/* Sparkle particles */}
+      <g>
+        <circle cx="155" cy="370" r="3" fill="url(#sparkleGlow)" className="animate-sparkle" style={{animationDelay: '0s'}} />
+        <circle cx="105" cy="400" r="2.5" fill="url(#sparkleGlow)" className="animate-sparkle" style={{animationDelay: '0.6s'}} />
+        <circle cx="315" cy="360" r="3.5" fill="url(#sparkleGlow)" className="animate-sparkle" style={{animationDelay: '1.2s'}} />
+        <circle cx="250" cy="340" r="2" fill="url(#sparkleGlow)" className="animate-sparkle" style={{animationDelay: '1.8s'}} />
+        <circle cx="385" cy="380" r="3" fill="url(#sparkleGlow)" className="animate-sparkle" style={{animationDelay: '0.4s'}} />
+        <circle cx="195" cy="325" r="2" fill="url(#sparkleGlow)" className="animate-sparkle" style={{animationDelay: '1s'}} />
+        <circle cx="350" cy="415" r="2.5" fill="url(#sparkleGlow)" className="animate-sparkle" style={{animationDelay: '1.5s'}} />
+        <circle cx="80" cy="385" r="2" fill="url(#sparkleGlow)" className="animate-sparkle" style={{animationDelay: '0.8s'}} />
+        <circle cx="420" cy="350" r="2.5" fill="url(#sparkleGlow)" className="animate-sparkle" style={{animationDelay: '2s'}} />
+        <circle cx="230" cy="390" r="1.5" fill="url(#sparkleGlow)" className="animate-sparkle" style={{animationDelay: '0.3s'}} />
       </g>
     </svg>
   );
